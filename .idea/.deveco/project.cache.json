@@ -1,0 +1,16 @@
+{
+	"CommonInfo":{
+		"project.ide.version":"6.0.1.260",
+		"current.select.product":"default",
+		"current.select.buildMode":"",
+		"crossplatform.projectType":""
+	},
+	"BuildOptions":{
+		"SELECT_BUILD_PRODUCT":"default",
+		"BUNDLE_NAME":"com.example.areyoualive",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"E:\\Project\\areYouAlive\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_MODE":""
+	}
+}
