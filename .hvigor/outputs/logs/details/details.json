@@ -3,11 +3,15 @@
     "MODULES": [
       {
         "MODULE_NAME": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
-        "API_TYPE": "stageMode"
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
       }
     ],
     "NATIVE_COMPILER": "Default",
-    "BUILD_MODE": "debug"
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -16,20 +20,24 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf": {
-        "CreateModuleInfo": 839800,
-        "ConfigureCmake": 258000,
-        "PreCheckSyscap": 811300,
-        "ProcessIntegratedHsp": 767100,
-        "BuildNativeWithCmake": 267000,
-        "SyscapTransform": 2643100,
-        "ProcessStartupConfig": 1529800,
-        "BuildNativeWithNinja": 503800,
-        "BuildJS": 1721700,
-        "ProcessCompiledResources": 480100,
-        "PackingCheck": 3346900,
-        "SignHap": 1070200,
-        "CollectDebugSymbol": 735400,
-        "assembleHap": 153700
+        "CreateModuleInfo": 484200,
+        "ConfigureCmake": 271000,
+        "PreCheckSyscap": 375300,
+        "ProcessIntegratedHsp": 597200,
+        "BuildNativeWithCmake": 358500,
+        "SyscapTransform": 2448400,
+        "ProcessStartupConfig": 1277000,
+        "BuildNativeWithNinja": 401100,
+        "CompileResource": 299651600,
+        "BuildJS": 1917700,
+        "CompileArkTS": 429040200,
+        "GeneratePkgModuleJson": 2667500,
+        "ProcessCompiledResources": 547800,
+        "PackageHap": 33989800,
+        "PackingCheck": 2502700,
+        "SignHap": 1655500,
+        "CollectDebugSymbol": 1143600,
+        "assembleHap": 250600
       }
     },
     "APIS": [
@@ -50,10 +58,11 @@
       "getParameter",
       "getProductName",
       "nodesEvaluated",
-      "getCommandEntryTask"
+      "getCommandEntryTask",
+      "getStartParams"
     ],
     "CONFIG_PROPERTIES": {},
-    "TOTAL_TIME": 197331700,
-    "BUILD_ID": "202601152339007390"
+    "TOTAL_TIME": 939399100,
+    "BUILD_ID": "202601161545223190"
   }
 }

@@ -181,16 +181,16 @@ struct Index {
       Button(){
         Column() {
           if (this.isSignIn){
-            Text("签到成功")
+            Text("太棒了~又活了一天👍")
               .fontSize(20)
               .fontColor(Color.White)
               .fontWeight(FontWeight.Bold)
-            Text("签到时间:"+this.Time)
+            Text("打卡时间:"+this.Time)
               .fontSize(12)
               .fontColor(Color.White)
               .margin({top: 8})
           } else {
-            Text("点击签到")
+            Text("活着么")
               .fontSize(20)
               .fontColor(Color.White)
               .fontWeight(FontWeight.Bold)
